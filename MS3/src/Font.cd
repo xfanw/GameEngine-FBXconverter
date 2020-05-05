@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Font" Collapsed="true">
+    <Position X="2.5" Y="2.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Font::NAME" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Font.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAQAAAAAAAIAAABACAAAAMAgAAAIAAwAACAAE=</HashCode>
+      <FileName>Font.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poMsgList" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FontLink" Collapsed="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAABAAAAAAAAAAAAABAAAIAAAA=</HashCode>
+      <FileName>Font.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FontMan" Collapsed="true">
+    <Position X="2.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAABABAAAABIAEAAAAAAIAgAACA=</HashCode>
+      <FileName>FontMan.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="active" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FontObj" Collapsed="true">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Font.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pGameObj" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GameObject2D" Collapsed="true">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAAAAAAAAAAAAACAQAAAAAAAAAgwABAAAA=</HashCode>
+      <FileName>GameObject2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Glyph" Collapsed="true">
+    <Position X="5.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Glyph.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlyphMan" Collapsed="true">
+    <Position X="2.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAACAABAABAQAAAABIAEAAAAAAIAgAACA=</HashCode>
+      <FileName>GlyphMan.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="active" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GraphicsObject_Sprite" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAgBEBAAAgAAAAgAAAAAAAAAAQAAgCAQAIABAAA=</HashCode>
+      <FileName>GraphicsObject_Sprite.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pImage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Image" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAABAAAAAAAAAAEAAAAABAAAAAAAEAAAAA=</HashCode>
+      <FileName>Image.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAACAAAgAkAAAARAAgAAAAAAAAAAAAAhEAYCQAA=</HashCode>
+      <FileName>GameObject.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poGraphicsObject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="GraphicsObject" Collapsed="true">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACABAAAAAYAAAgAAAAAAAQAABABEAAAAAE=</HashCode>
+      <FileName>GraphicsObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

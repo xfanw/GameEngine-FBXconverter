@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TextureNodeLink">
+    <Position X="3.75" Y="1" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAABAAAIAAAA=</HashCode>
+      <FileName>TextureNodeLink.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextureNode">
+    <Position X="3.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAQAQAAAAABEEBAAAAAABAABAAA=</HashCode>
+      <FileName>TextureNode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Texture">
+    <Position X="1.25" Y="1" Width="1.5" />
+    <Members>
+      <Method Name="~Texture" Hidden="true" />
+      <Method Name="privAddToFront" Hidden="true" />
+      <Method Name="privGetInstance" Hidden="true" />
+      <Method Name="privLoadTexture" Hidden="true" />
+      <Method Name="privLoadTGATexture" Hidden="true" />
+      <Method Name="Texture" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Texture::Name">
+        <TypeIdentifier>
+          <NewMemberFileName>Texture.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEIAAgAAAAAAgAAIAAABAAAAAAAIAACAAAIgIggAAAA=</HashCode>
+      <FileName>Texture.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="active" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
