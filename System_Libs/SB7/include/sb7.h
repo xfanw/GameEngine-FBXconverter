@@ -58,7 +58,7 @@
 #include <string.h>
 #include <math.h>
 
-#define UNUSED_VAR(x) (void)x // Keenan
+#define UNUSED_VAR(x) (void)x // 
 
 namespace sb7
 {
